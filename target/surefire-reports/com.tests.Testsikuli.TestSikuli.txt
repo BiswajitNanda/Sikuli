@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: com.tests.Testsikuli.TestSikuli
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.71 sec <<< FAILURE!
+testsikuli(com.tests.Testsikuli.TestSikuli)  Time elapsed: 0.36 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/google/common/base/Optional
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.loadCustomExtension(NewProfileExtensionConnection.java:151)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.addWebDriverExtensionIfNeeded(NewProfileExtensionConnection.java:142)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:76)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at com.tests.Testsikuli.TestSikuli.testsikuli(TestSikuli.java:25)
+Caused by: java.lang.ClassNotFoundException: com.google.common.base.Optional
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 43 more
+

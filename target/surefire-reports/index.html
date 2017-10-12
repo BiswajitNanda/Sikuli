@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-com.tests.Testsikuli.TestSikuli">
+              <span class="suite-name border-failed">com.tests.Testsikuli.TestSikuli</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-com.tests.Testsikuli.TestSikuli">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-com.tests.Testsikuli.TestSikuli">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-com.tests.Testsikuli.TestSikuli">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-com.tests.Testsikuli.TestSikuli">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-com.tests.Testsikuli.TestSikuli">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-com.tests.Testsikuli.TestSikuli">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-com.tests.Testsikuli.TestSikuli">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-com.tests.Testsikuli.TestSikuli" class="hide-methods failed suite-com.tests.Testsikuli.TestSikuli"> (hide)</a> <!-- hide-methods failed suite-com.tests.Testsikuli.TestSikuli -->
+                      <a href="#" panel-name="suite-com.tests.Testsikuli.TestSikuli" class="show-methods failed suite-com.tests.Testsikuli.TestSikuli"> (show)</a> <!-- show-methods failed suite-com.tests.Testsikuli.TestSikuli -->
+                    </span>
+                    <div class="method-list-content failed suite-com.tests.Testsikuli.TestSikuli">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.tests.Testsikuli.TestSikuli" title="com.tests.Testsikuli.TestSikuli" hash-for-method="testsikuli">testsikuli</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-com.tests.Testsikuli.TestSikuli -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-com.tests.Testsikuli.TestSikuli" class="panel com.tests.Testsikuli.TestSikuli">
+          <div class="suite-com.tests.Testsikuli.TestSikuli-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.tests.Testsikuli.TestSikuli</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testsikuli">
+                  </a> <!-- testsikuli -->
+                  <span class="method-name">testsikuli</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/google/common/base/Optional
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.loadCustomExtension(NewProfileExtensionConnection.java:151)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.addWebDriverExtensionIfNeeded(NewProfileExtensionConnection.java:142)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:76)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at com.tests.Testsikuli.TestSikuli.testsikuli(TestSikuli.java:25)
+Caused by: java.lang.ClassNotFoundException: com.google.common.base.Optional
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 43 more
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-com.tests.Testsikuli.TestSikuli-class-failed -->
+        </div> <!-- panel com.tests.Testsikuli.TestSikuli -->
+        <div panel-name="test-xml-com.tests.Testsikuli.TestSikuli" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;com.tests.Testsikuli.TestSikuli&quot;&gt;
+  &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tests.Testsikuli.TestSikuli&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+  &lt;test name=&quot;Command line test(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tests.Testsikuli.TestSikuli&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testsikuli&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.tests.Testsikuli.TestSikuli --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test(failed) --&gt;
+&lt;/suite&gt; &lt;!-- com.tests.Testsikuli.TestSikuli --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-com.tests.Testsikuli.TestSikuli" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for com.tests.Testsikuli.TestSikuli</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Command line test(failed) (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-com.tests.Testsikuli.TestSikuli" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for com.tests.Testsikuli.TestSikuli</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-com.tests.Testsikuli.TestSikuli" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for com.tests.Testsikuli.TestSikuli</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_com.tests.Testsikuli.TestSikuli');
+function tableData_com.tests.Testsikuli.TestSikuli() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testsikuli')
+data.setCell(0, 2, 'com.tests.Testsikuli.TestSikuli')
+data.setCell(0, 3, 353);
+window.suiteTableData['com.tests.Testsikuli.TestSikuli']= { tableData: data, tableDiv: 'times-div-com.tests.Testsikuli.TestSikuli'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 353 ms</span>
+              <div id="times-div-com.tests.Testsikuli.TestSikuli">
+              </div> <!-- times-div-com.tests.Testsikuli.TestSikuli -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-com.tests.Testsikuli.TestSikuli" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for com.tests.Testsikuli.TestSikuli</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-com.tests.Testsikuli.TestSikuli" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-com.tests.Testsikuli.TestSikuli" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tests.Testsikuli.TestSikuli</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testsikuli</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
